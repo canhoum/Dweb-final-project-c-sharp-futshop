@@ -1,4 +1,5 @@
-﻿using System.Globalization;
+﻿using System.ComponentModel.DataAnnotations;
+using System.Globalization;
 
 namespace futshopvs2022.Models
 {
@@ -9,6 +10,9 @@ namespace futshopvs2022.Models
         public string Email { get; set; }
         public string Senha { get; set; }
         public string Morada { get; set; }
+
+        //numero de telefone
+        [RegularExpression(@"^9[1236]\d{7}$", ErrorMessage = "O Telefone deve começar com 9 e ter exatamente 9 dígitos")]
         public string Telefone { get; set; }
 
         public string ImagemUtilizador { get; set; }
