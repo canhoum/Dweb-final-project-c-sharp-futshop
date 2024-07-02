@@ -1,6 +1,6 @@
 ﻿namespace futshopvs2022.Models
 {
-    public class carrinho
+    public class Carrinho
     {
         public int CarrinhoId { get; set; }
         public int CompraId { get; set; }

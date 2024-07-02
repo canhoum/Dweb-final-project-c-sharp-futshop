@@ -1,6 +1,6 @@
 ﻿namespace futshopvs2022.Models
 {
-    public class utilizador
+    public class Utilizador
     {
         public int UtilizadorId { get; set; }
         public string Nome { get; set; }
