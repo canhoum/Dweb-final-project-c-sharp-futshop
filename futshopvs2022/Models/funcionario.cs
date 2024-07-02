@@ -1,6 +1,7 @@
 ﻿namespace futshopvs2022.Models
 {
-    public class funcionario
+    public class Funcionario
     {
+        public int FuncionarioId { get; set; }
     }
 }
